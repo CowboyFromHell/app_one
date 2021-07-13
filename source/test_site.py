@@ -40,7 +40,7 @@ def query_example():
             return f"""Use this format: {{animal:"dog", sound:"woof", count: 4}}"""+"\n"
     #The root page
     res_text = f"""
-    Hello!<br/>
+    Wake up Neo!<br/>
     Use one of these <a href="converted_emodji">emodji</a><br/><br/>
     Example:<br/>
     curl -XPOST -d'{{"animal":"cow", "sound":"moooo", "count": 3}}' https://{socket.gethostbyname(socket.gethostname())}<br/>
