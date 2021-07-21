@@ -60,5 +60,5 @@ def second_page():
 
 
 if __name__ == '__main__':
-    context = ('cert.pem', 'key.pem') #Self signed certificate
-    app.run(host="0.0.0.0", port=443, ssl_context=context)
+    #context = ('cert.pem', 'key.pem') #Self signed certificate
+    app.run(host="0.0.0.0", port=80) #, ssl_context=context
