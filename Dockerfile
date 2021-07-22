@@ -10,8 +10,8 @@ COPY ./source ./
 # RUN pip3 install pyinstaller
 # RUN pip3 install staticx
 # RUN pip3 install flask
-RUN pyinstaller -F test_site.py
-RUN staticx ./dist/test_site app
+RUN pyinstaller -F app_py.py
+RUN staticx ./dist/app_py app
 RUN ls -lh
 
 FROM scratch
