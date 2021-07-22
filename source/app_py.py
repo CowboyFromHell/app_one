@@ -18,7 +18,7 @@ def query_example():
     #The root page
     res_text = f"""
     Hello!<br/>
-    This is Python app!<br/>
+    This is Python App!<br/>
     Made with 💖 by Antosha<br/>"""
     return res_text
 
