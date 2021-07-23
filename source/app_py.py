@@ -20,7 +20,7 @@ def query_example():
     Hello!<br/>
     This is Python App!<br/>
     Made with 💖 by Antosha<br/>
-    ИДИ РАБОТАЙ МАЛЕНЬКАЯ ВРЕДНАЯ КАРЯВКА!"""
+    """
     return res_text
 
 if __name__ == '__main__':
