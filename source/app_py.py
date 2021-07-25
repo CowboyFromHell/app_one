@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 #The root page
 @app.route('/', methods=['GET', 'POST'])
-def query_example():
+def root():
     #Action for a POST request
     # if request.method == 'POST':
     #     request_data = request.get_json(force=True) #Fetch a user data
@@ -21,6 +21,11 @@ def query_example():
     This is Python App!<br/>
     Made with 💖 by Antosha<br/>
     """
+    return res_text
+
+@app.route('/version', methods=['GET', 'POST'])
+def version_page():
+    res_text = "v2.0"
     return res_text
 
 if __name__ == '__main__':
