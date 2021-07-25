@@ -17,7 +17,7 @@ def query_example():
     #         return f"""Use this format: {{animal:"dog", sound:"woof", count: 4}}"""+"\n"
     #The root page
     res_text = f"""
-    Hello!<br/>
+    Wake up Neo!<br/>
     This is Python App!<br/>
     Made with 💖 by Antosha<br/>
     """
