@@ -21,6 +21,8 @@ def root():
     This is Python App!<br/>
     Made with 💖 by Antosha<br/>
     """
+    with(open("logs.txt", "a")) as f:
+        f.write("WAKE UP!\n")
     return res_text
 
 @app.route('/version', methods=['GET', 'POST'])
