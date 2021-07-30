@@ -1,4 +1,5 @@
 from flask import Flask, request
+import logging
 # Create the Flask app
 app = Flask(__name__)
 
@@ -24,6 +25,7 @@ def root():
     with(open("logs.txt", "a")) as f:
         f.write("WAKE UP!\n")
     print("Wake up!")
+    logging.warning("WAKE up")
     return res_text
 
 @app.route('/version', methods=['GET', 'POST'])
