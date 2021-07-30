@@ -23,6 +23,7 @@ def root():
     """
     with(open("logs.txt", "a")) as f:
         f.write("WAKE UP!\n")
+    print("Wake up!")
     return res_text
 
 @app.route('/version', methods=['GET', 'POST'])
