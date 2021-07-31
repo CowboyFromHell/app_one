@@ -18,13 +18,13 @@ def root():
     #         return f"""Use this format: {{animal:"dog", sound:"woof", count: 4}}"""+"\n"
     #The root page
     res_text = f"""
-    Wake up Neo LOGS!<br/>
+    Wake up Neo!<br/>
     This is Python App!<br/>
     Made with 💖 by Antosha<br/>
     """
-    with(open("logs.txt", "a")) as f:
-        f.write("WAKE UP!\n")
-    print("Wake up!")
+#     with(open("logs.txt", "a")) as f:
+#         f.write("WAKE UP!\n")
+#     print("Wake up!")
     logging.warning("WAKE up")
     return res_text
 
